@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ListActivity">
+
+    <com.example.yuekao_01.music.GramophoneView
+        android:id="@+id/gramophone_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:picture_radius="100dp"
+        app:disk_rotate_speed="0.2"
+        app:src="@drawable/chun"/>
+
+    <Button
+        android:id="@+id/btn_play_pause"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击播放"
+        android:textSize="16sp"/>
+
+</LinearLayout>
